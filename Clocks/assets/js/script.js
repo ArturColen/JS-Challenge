@@ -4,7 +4,7 @@ let sElement = document.querySelector('#p-s');
 let mElement = document.querySelector('#p-m');
 let hElement = document.querySelector('#p-h');
 
-// Function to update the clocks data according to the time
+// Atualizar os dados dos relógios de acordo com a hora
 function updateClock() {
     // Variables for storing the timetable 
     let now = new Date();
@@ -26,7 +26,7 @@ function updateClock() {
     hElement.style.transform = `rotate(${hDeg}deg)`;
 }
 
-// Function to correctly format the times that have a value less than 10
+// Correctly format the times that have a value less than 10
 function fixZero(time) {
     return time < 10 ? `0${time}` : time;
 }
