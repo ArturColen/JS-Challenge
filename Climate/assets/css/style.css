@@ -1,0 +1,126 @@
+/* === Generic Styles === */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: #fff;
+    margin: 20px 0;
+}
+
+/* === Form === */
+#search{
+    display: flex;
+    width: 300px;
+}
+
+#search #search-input{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    flex: 1;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+#search button{
+    border: 0;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #555;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#search button:hover{
+    background-color: #444;
+}
+
+/* === Result === */
+#result{
+    width: 300px;
+    display: none;
+    border: 1px dotted #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+#title{
+    width: 100%;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+#info{
+    display: flex;
+    width: 100%;
+}
+
+#info #temperature, #info #wind{
+    flex: 1;
+    text-align: center;
+}
+
+#temperature-title, #wind-title{
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#temperature-info, #wind-info{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#temperature-info sup{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+#wind-info span{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+#wind-area{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+#wind-point{
+    width: 15px;
+    height: 1px;
+    background-color: #fff;
+    transform-origin: left;
+}
+
+/* === Warning === */
+#warning{
+    color: #fff;
+    padding-top: 20px;
+}

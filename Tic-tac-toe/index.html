@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Artur Bomtempo">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da velha</title>
+    <!-- === CSS File ===  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- === Title ===  -->
+    <h1>Jogo da velha</h1>
+    <!-- === Hash === -->
+    <div id="hash">
+        <!-- === Line 1 === -->
+        <div data-item="a1" class="item b r"></div>
+        <div data-item="a2" class="item b r"></div>
+        <div data-item="a3" class="item b"></div>
+        <!-- === Line 2 === -->
+        <div data-item="b1" class="item b r"></div>
+        <div data-item="b2" class="item b r"></div>
+        <div data-item="b3" class="item b"></div>
+        <!-- === Line 3 === -->
+        <div data-item="c1" class="item r"></div>
+        <div data-item="c2" class="item r"></div>
+        <div data-item="c3" class="item"></div>
+    </div>
+    <!-- === Information === -->
+    <div id="info">
+        <div class="info-item">
+            <div class="info-title">É a vez de:</div>
+            <div class="info-body" id="turn">--</div>
+        </div>
+        <div class="info-item">
+            <div class="info-title">Resultado:</div>
+            <div class="info-body" id="result">--</div>
+        </div>
+    </div>
+    <!-- === Reset Button === -->
+    <button id="reset">Resetar</button>
+
+    <!-- === JS File ===  -->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

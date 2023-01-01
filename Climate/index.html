@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Artur Bomtempo">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <!-- === CSS File === -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- === Title === -->
+    <h1>Clima</h1>
+    <!-- === Form ===  -->
+    <form id="search">
+        <input type="search" id="search-input">
+        <button>Buscar</button>
+    </form>
+    <!-- === Result ===  -->
+    <div id="result">
+        <div id="title">--</div>
+        <div id="info">
+            <div id="temperature">
+                <div id="temperature-title">Temperatura</div>
+                <div id="temperature-info">-- <sup>ºC</sup></div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="Imagem ilustrativa da temperatura">
+            </div>
+            <div id="wind">
+                <div id="wind-title">Vento</div>
+                <div id="wind-info">--- <span>km/h</span></div>
+                <div id="wind-area">
+                    <div id="wind-point" style="transform: rotate(0deg);"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- === Warning === -->
+    <div id="warning"></div>
+
+    <!-- === JS File === -->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

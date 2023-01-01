@@ -1,0 +1,93 @@
+/* === Generic Styles === */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: #fff;
+    margin: 20px 0;
+}
+
+/* === Hash === */
+#hash{
+    width: 300px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.item:hover{
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.item.r{
+    border-right: 1px solid #fff;
+}
+
+.item.b{
+    border-bottom: 1px solid #fff;
+}
+
+/* === Information === */
+#info{
+    width: 300px;
+    border: 1px dotted #fff;
+    padding: 10px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.info-item{
+    flex: 1;
+}
+
+.info-title, .info-body{
+    text-align: center;
+    color: #fff;
+}
+
+.info-title{
+    margin-bottom: 10px;
+}
+
+.info-body{
+    font-size: 20px;
+}
+
+/* === Reset Button === */
+#reset{
+    border: 1px solid #000;
+    background-color: rgba(0, 0, 0, .2);
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#reset:hover{
+    background-color: rgba(0, 0, 0, .1);
+}
