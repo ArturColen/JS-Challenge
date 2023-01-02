@@ -14,7 +14,7 @@ document.querySelectorAll('#color-area .color').forEach(item => {
 board.addEventListener('mousedown', mouseDownEvent);
 board.addEventListener('mousemove', mouseMoveEvent);
 board.addEventListener('mouseup', mouseUpEvent);
-//limpar
+// Click the button to clear the board
 document.querySelector('#clear').addEventListener('click', clearBoard);
 
 // Select the color to be used
