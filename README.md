@@ -30,6 +30,8 @@ Access the page [here](https://tictactoe-js.surge.sh/).
 
 ![Image of the Tic-tac-toe](https://user-images.githubusercontent.com/96635074/210157467-86a8ca61-d90d-477c-ae84-dc9e37e25050.png)
 
+# Day 5 - Drawing board 🖌️
+
 # 💻 Technologies and techniques used 
 * `HTML:` Page structuring, accessibility and semantics
 * `CSS:` Page styling
