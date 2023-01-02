@@ -17,18 +17,20 @@ Access the page [here](https://clocks-js.surge.sh/).
 ![Image of the clocks](https://user-images.githubusercontent.com/96635074/209582639-89f3cdc1-aaeb-49d0-96a3-670df6ed754a.png)
 
 # Day 3 - Climate ⛅
-The project consists of a climate consultant of several locations around the world based on the consumption of an API.
+The project consists in a climate consultant of several locations around the world based on the consumption of an API.
 
 Access the page [here](https://climate-js.surge.sh/).
 
 ![Image of the climate project](https://user-images.githubusercontent.com/96635074/210024156-c2f79f87-f6cf-44dc-98d0-efd069e86153.png)
 
 # Day 4 - Tic-tac-toe #️⃣
-The program developed consists of the creation of the Tic-tac-toe game.
+The program developed consists in the creation of the Tic-tac-toe game.
 
 Access the page [here](https://tictactoe-js.surge.sh/).
 
 ![Image of the Tic-tac-toe](https://user-images.githubusercontent.com/96635074/210157467-86a8ca61-d90d-477c-ae84-dc9e37e25050.png)
+
+# Day 5 - Drawing board 🖌️
 
 # 💻 Technologies and techniques used 
 * `HTML:` Page structuring, accessibility and semantics
