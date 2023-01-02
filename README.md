@@ -30,7 +30,12 @@ Access the page [here](https://tictactoe-js.surge.sh/).
 
 ![Image of the Tic-tac-toe](https://user-images.githubusercontent.com/96635074/210157467-86a8ca61-d90d-477c-ae84-dc9e37e25050.png)
 
-# Day 5 - Drawing board 🖌️
+# Day 5 - Drawing board 🎨
+The project created consists of a blank board created with the Canvas tag.
+
+Access the page [here](https://drawingboard-js.surge.sh/).
+
+![Image of the drawing board](https://user-images.githubusercontent.com/96635074/210192500-382baa81-4de5-49cd-809c-de4f65bfb9b1.png)
 
 # 💻 Technologies and techniques used 
 * `HTML:` Page structuring, accessibility and semantics
