@@ -37,6 +37,13 @@ Access the page [here](https://drawingboard-js.surge.sh/).
 
 ![Image of the drawing board](https://user-images.githubusercontent.com/96635074/210192500-382baa81-4de5-49cd-809c-de4f65bfb9b1.png)
 
+# Day 6 - Quiz 📋
+The program created is a quiz about JavaScript that is intended to train the user's basic knowledge of the programming language.
+
+Access the page [here](https://quizz-js.surge.sh/).
+
+![Image of the quiz](https://user-images.githubusercontent.com/96635074/210301785-6cef7348-c9f4-4e9d-8013-3f485b6580d9.png)
+
 # 💻 Technologies and techniques used 
 * `HTML:` Page structuring, accessibility and semantics
 * `CSS:` Page styling
