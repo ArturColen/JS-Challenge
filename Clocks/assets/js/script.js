@@ -4,7 +4,7 @@ let sElement = document.querySelector('#p-s');
 let mElement = document.querySelector('#p-m');
 let hElement = document.querySelector('#p-h');
 
-// Atualizar os dados dos relógios de acordo com a hora
+// Update the clock data according to the current time
 function updateClock() {
     // Variables for storing the timetable 
     let now = new Date();
