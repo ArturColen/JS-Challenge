@@ -56,5 +56,8 @@ Access the page [here](https://draganddrop-js.surge.sh/).
 * `CSS:` Page styling
 * `JavaScript:` Page dynamics
 
+# Observation
+These programs are designed to be accessed on computers (they are not responsive), so if used on mobile devices, some functions will not run.
+
 # 📁 Projects access
 You can [access the source code](https://github.com/ArturColen/JS-Challenge).
