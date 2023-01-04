@@ -1,0 +1,71 @@
+/* === Generic Styles === */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    margin: 20px 0;
+    color: #fff;
+}
+
+/* === Neutral Area === */
+#neutral-area{
+    width: 450px;
+    height: 150px;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+}
+
+.item.dragging{
+    opacity: .5;
+}
+
+/* === Areas to Fill === */
+#areas{
+    width: 450px;
+    margin-top: 20px;
+    display: flex;
+}
+
+#areas.correct .area{
+    border: 2px solid #0f0;
+}
+
+.area{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover{
+    background-color: rgba(0, 0, 0, .3);
+}

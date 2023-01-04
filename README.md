@@ -44,6 +44,13 @@ Access the page [here](https://quizz-js.surge.sh/).
 
 ![Image of the quiz](https://user-images.githubusercontent.com/96635074/210301785-6cef7348-c9f4-4e9d-8013-3f485b6580d9.png)
 
+# Day 7 - Drag and Drop 🧩
+The project was developed in order to learn how to change the position of objects on the screen via JavaScript.
+
+Access the page [here](https://draganddrop-js.surge.sh/).
+
+![Image of the Drag and Drop project](https://user-images.githubusercontent.com/96635074/210469006-9d96606c-601e-4fe9-925b-624465f8d575.png)
+
 # 💻 Technologies and techniques used 
 * `HTML:` Page structuring, accessibility and semantics
 * `CSS:` Page styling
