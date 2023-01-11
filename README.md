@@ -1,5 +1,4 @@
 # Seven projects in seven days
-
 Challenge proposed in the [B7Web](https://b7web.com.br/) course, which aims to train the knowledge acquired during the JavaScript classes.
 
 ## Day 1 - Drums 🥁
