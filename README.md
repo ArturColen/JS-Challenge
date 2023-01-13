@@ -6,14 +6,14 @@ Project developed to simulate a drums by clicking on the keyboard buttons.
 
 Access the page [here](https://drums-js.surge.sh/).
 
-![Image of the virtual battery](https://user-images.githubusercontent.com/96635074/209264214-71ec5706-30fb-4395-af3d-7a14a41a6bd7.png)
+![Image of the drums project](https://user-images.githubusercontent.com/96635074/209264214-71ec5706-30fb-4395-af3d-7a14a41a6bd7.png)
 
 ## Day 2 - Clocks ⏱️
 The program was created in order to observe the time on an analog and a digital clock.
 
 Access the page [here](https://clocks-js.surge.sh/).
 
-![Image of the clocks](https://user-images.githubusercontent.com/96635074/209582639-89f3cdc1-aaeb-49d0-96a3-670df6ed754a.png)
+![Image of the clocks project](https://user-images.githubusercontent.com/96635074/209582639-89f3cdc1-aaeb-49d0-96a3-670df6ed754a.png)
 
 ## Day 3 - Climate ⛅
 The project consists in a climate consultant of several locations around the world based on the consumption of an API.
