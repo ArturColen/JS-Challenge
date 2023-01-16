@@ -53,9 +53,9 @@ Access the page [here](https://draganddrop-js.surge.sh/).
 ![Image of the Drag and Drop project](https://user-images.githubusercontent.com/96635074/210469006-9d96606c-601e-4fe9-925b-624465f8d575.png)
 
 ## 💻 Technologies used 
-* [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML): Page structuring, accessibility and semantics
-* [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS): Page styling 
-* [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript): Dynamicity of the page
+* [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML): page structuring, accessibility and semantics
+* [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS): page styling 
+* [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript): dynamicity of the page
 
 ## 📁 Projects access
 ### Clone [this repository](https://github.com/ArturColen/JS-Challenge) on your machine
