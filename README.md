@@ -57,11 +57,4 @@ Access the page [here](https://draganddrop-js.surge.sh/).
 * [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS): page styling 
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript): dynamicity of the page
 
-## 📁 Projects access
-### Clone [this repository](https://github.com/ArturColen/JS-Challenge) on your machine
-* Create a folder on your computer for this program
-* Open the `terminal` inside this folder
-* Copy the [URL](https://github.com/ArturColen/JS-Challenge.git) from the repository
-* Type `git clone <URL copied>` and press `enter`
-
 **Observation:** These programs are designed to be accessed on computers (they are not responsive), so if used on mobile devices, some functions will not run.
