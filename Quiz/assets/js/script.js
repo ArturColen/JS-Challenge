@@ -1,13 +1,10 @@
-// Initial data
 let currentQuestion = 0;
 let correctAnswers = 0;
 
 showQuestion();
 
-// Click the button to restart the quiz
 document.querySelector('#score-area button').addEventListener('click', resetEvent);
 
-// Show the questions and change the progress bar
 function showQuestion() {
     if (questions[currentQuestion]) {
         let q = questions[currentQuestion];
@@ -34,7 +31,6 @@ function showQuestion() {
     }
 }
 
-// Verify that you have clicked on the correct option and move on to the next 
 function optionClickEvent(e) {
     let clickedOption = parseInt(e.target.getAttribute('data-op'));
 
@@ -46,7 +42,6 @@ function optionClickEvent(e) {
     showQuestion();
 }
 
-// Show the survey result
 function finishQuiz() {
     let points = Math.floor((correctAnswers / questions.length) * 100);
 
@@ -71,7 +66,6 @@ function finishQuiz() {
     document.querySelector('#progress-bar').style.width = '100%';
 }
 
-// Restart the quiz
 function resetEvent() {
     currentQuestion = 0;
     correctAnswers = 0;
