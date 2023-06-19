@@ -1,4 +1,3 @@
-// Store the survey questions in a variable
 let questions = [
     {
         question: 'Em qual elemento HTML nós colocamos o javascript?',
