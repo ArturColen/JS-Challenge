@@ -1,4 +1,3 @@
-// Initial data
 let hash = {
     a1: '', a2: '', a3: '',
     b1: '', b2: '', b3: '',
@@ -10,14 +9,11 @@ let playing = false;
 
 reset();
 
-// Event to restart the game by clicking the button
 document.querySelector('#reset').addEventListener('click', reset);
-// Event to mark the move
 document.querySelectorAll('.item').forEach(item => {
     item.addEventListener('click', itemClick);
 });
 
-// Mark the move on the screen
 function itemClick(event) {
     let item = event.target.getAttribute('data-item');
     if (playing && hash[item] == '') {
@@ -27,7 +23,6 @@ function itemClick(event) {
     }
 }
 
-// Restart the game
 function reset() {
     warning = '';
 
@@ -44,7 +39,6 @@ function reset() {
     renderInfo();
 }
 
-// Fill in the game fields with the values that are in the object
 function renderHash() {
     for (let i in hash) {
         let item = document.querySelector(`div[data-item=${i}]`);
@@ -54,19 +48,16 @@ function renderHash() {
     checkGame();
 }
 
-// Fill in the main game information 
 function renderInfo() {
     document.querySelector('#turn').innerHTML = player;
     document.querySelector('#result').innerHTML = warning;
 }
 
-// Switch player
 function togglePlayer() {
     player = (player == 'x') ? 'o' : 'x';
     renderInfo();
 }
 
-// Check the game status
 function checkGame() {
     if (checkWinner('x')) {
         warning = 'O "x" venceu!';
@@ -82,7 +73,6 @@ function checkGame() {
     }
 }
 
-// Check who won the game
 function checkWinner(player) {
     let possibilities = [
         'a1,a2,a3',
@@ -108,7 +98,6 @@ function checkWinner(player) {
     return false;
 }
 
-// Check if the game is tied
 function tie() {
     for (let i in hash) {
         if (hash[i] === '') {
